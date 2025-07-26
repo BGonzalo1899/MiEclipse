@@ -20,7 +20,7 @@ public class CodeVentana extends JFrame{
 		text2.setBounds(10,40, 150, 50);
 		JTextField ingresa = new JTextField ();
 		ingresa.setBounds(120, 55 , 100, 20);
-		this.setTitle("Ventana de prueba - Botafogo 5 Penarol 0"); 
+		this.setTitle("Ventana de prueba"); 
 		this.setSize(600, 400); 
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 		this.setLocationRelativeTo(null); 
