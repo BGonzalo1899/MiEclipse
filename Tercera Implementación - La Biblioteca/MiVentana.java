@@ -73,9 +73,9 @@ public class MiVentana extends JFrame{
             public void actionPerformed(ActionEvent e) {
             	 for (int i = 0; i < arreglo.length; i++) {
                      if (arreglo[i] != null) { // solo los que tengan datos
-                         System.out.println(": ISBN=" + arreglo[i].getISBN());
-                         System.out.println(    ", Autor=" + arreglo[i].getAutor()); 
-                          System.out.println(   ", Título=" + arreglo[i].getTitulo());  
+                         System.out.println("ISBN: " + arreglo[i].getISBN());
+                         System.out.println(" Autor:" + arreglo[i].getAutor()); 
+                          System.out.println(" Título:" + arreglo[i].getTitulo());  
                      }
                  }
              }
@@ -84,6 +84,7 @@ public class MiVentana extends JFrame{
 	
 	}
 	}
+
 
 
 
